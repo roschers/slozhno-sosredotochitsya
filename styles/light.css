@@ -22,3 +22,19 @@
     --hover-color: rgba(50, 49, 45, 0.40);
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+        /* Дублируем переменные светлой темы */ 
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #353430;
+    --underground-color: #fceff5;
+    --header-color: #FFC2E6;
+    --shadow-color: #FF0070;
+    --main-color: #FF8DCB;
+    --text-color: #353430;
+    --title--color: #353430;
+    --display-rec: none;
+    --decor-size: 25px;
+    --hover-color: rgba(50, 49, 45, 0.40);   
+  }
+}
