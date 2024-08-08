@@ -2,3 +2,58 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --font: 'IBM Plex mono';
+  --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000028;
+  --underground-color: #000028;
+  --header-color: #DB00FF;
+  --shadow-color: #FF0070;
+  --main-color: #FF0070;
+  --text-color: #F1B2CE;
+  --title--color: #FF0070;
+  --decorated-height: 100vh;
+  --font-size: 18px;
+  --decor-size: 25px;
+  --hover-color: rgba(255, 0, 112, 0.40);
+  --size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --display-rec: inline-flex;
+}
+
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background-image: url(../images/cover-image-dark.png);
+    --background-color: #000028;
+    --main-text-color: #f1b2ce;
+    --title-shadow: #ff0070;
+    --title-color: #db00ff;
+    --hover-color: 1px solid rgba(255, 0, 112, 0.4);
+    --article-title-color: var(--background-color);
+    --section-title-color: var(--title-shadow);
+    --border-color: var(--main-text-color);
+    --corners-color: var(--title-shadow);
+    --title-decor: var(--title-shadow);
+    --link-shadow: var(--title-shadow);
+    --rec-color: var(--title-shadow);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #fff1f7;
+    --main-text-color: #353430;
+    --title-color: #ffc2e6;
+    --title-shadow: #ff0070;
+    --title-decor: #ff8dcb;
+    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --article-title-color: var(--main-text-color);
+    --section-title-color: var(--main-text-color);
+    --border-color: var(--title-shadow);
+    --corners-color: var(--main-text-color);
+    --link-shadow: var(--title-color);
+    --rec-color: var(--background-color);
+  }
+} */
