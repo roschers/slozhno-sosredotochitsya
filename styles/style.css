@@ -23,8 +23,7 @@
 .header {
   position: relative;
   min-block-size: var(--decorated-height);
-  padding-block-end: 76px;
-
+  margin-block-end: 75px;
 }
 
 .decorative__elements::before {
@@ -40,42 +39,14 @@
 
 .decorative__elements::after {
   content: '';
+  position: absolute;
+  bottom: 0;
   display: inline-block;
   inline-size: var(--decor-size);
   block-size: var(--decor-size);
   border-inline-start: 1px solid var(--title--color);
   border-block-end: 1px solid var(--title--color);
 }
-
-/* .decorative__elements::before,
-.decorative__elements::after {
-  content: '';
-  display: inline-block;
-  inline-size: var(--decor-size);
-  block-size: var(--decor-size);
-
-} */
-
-/* .decorative__elements::before {
-  position: absolute;
-  right: 0;
-  justify-self: end;
-  border-inline-end: 1px solid var(--title--color);
-  border-block-start: 1px solid var(--title--color);
-} */
-/* 
-.footer::before {
-  justify-self: end;
-  border-inline-end: 1px solid var(--title--color);
-  border-block-start: 1px solid var(--title--color);
-} */
-
-
-/* .decorative__elements::after {
-  align-self: end;
-  border-inline-start: 1px solid var(--title--color);
-  border-block-end: 1px solid var(--title--color);
-} */
 
 .header__rec {
   position: absolute;
@@ -343,10 +314,6 @@
     padding-block-end: 19%;
   }
 
-  .header {
-    padding-block-end: 74px;
-  }
-
   .section {
     gap: 20px;
   }
@@ -393,7 +360,7 @@
   }
 
   .header {
-    padding-block-end: 43px;
+    margin-block-end: 50px;
   }
 
   .header__theme-menu-list {
@@ -414,7 +381,7 @@
   }
 
   .header__container-title {
-    padding-block-end: 9%;
+    padding-block-end: 15%;
   }
 
   .section__title {
@@ -451,6 +418,8 @@
   }
 
   .footer__title {
+    padding: 68% 0;
     letter-spacing: -3px;
+    padding: 68% 0 72%;
   }
 }
